@@ -11,50 +11,71 @@ software systems.
 
 # Why Use Design Patterns?
 
-- **Promotes Reusability:** Design patterns 
-promote code reuse by providing standardized
-solutions to common problems. Instead of
-reinventing the wheel, **developers can
-leverage existing patterns to solve similar
-problems**.
+- **Promotes Reusability:** 
 
-- **Improves Maintainability:** Design patterns
-encourage modular design, making code easier
-to understand, modify, and maintain. 
-Each pattern addresses a specific aspect of
-the software design, leading to cleaner and
-more organized code.
+    Design patterns 
+    promote code reuse by providing standardized
+    solutions to common problems. Instead of
+    reinventing the wheel, **developers can
+    leverage existing patterns to solve similar
+    problems**.
 
-- **Facilitates Communication:** Design patterns
-serves as a common language for developers
-to communicate design decisions and 
-architectural concepts. By using familiar
-patterns, team members can quickly 
-understand and collaborate on software 
-projects.
 
-- **Ensures scalability:** Design patterns
-help in designing scalable software 
-system that can adapt to changing 
-requirements and evolving technologies.
-By following established patterns, 
-developers can build flexible and extensible
-architectures.
+- **Improves Maintainability:** 
+
+    Design patterns
+    encourage modular design, making code easier
+    to understand, modify, and maintain. 
+    Each pattern addresses a specific aspect of
+    the software design, leading to cleaner and
+    more organized code.
+
+
+- **Facilitates Communication:** 
+
+    Design patterns
+    serves as a common language for developers
+    to communicate design decisions and 
+    architectural concepts. By using familiar
+    patterns, team members can quickly 
+    understand and collaborate on software 
+    projects.
+
+
+- **Ensures scalability:** 
+
+    Design patterns
+    help in designing scalable software 
+    system that can adapt to changing 
+    requirements and evolving technologies.
+    By following established patterns, 
+    developers can build flexible and extensible
+    architectures.
 
 # Categories of Design Patterns
 
 Design patterns are categorized into three
 main groups based on their purpose:
 
-1. **Creational Patterns:** These patterns focus
+1. **Creational Patterns:** 
+
+    These patterns focus
 on object creation mechanism, providing 
 flexibility in creating object while hiding the
 creational logic.
-2. **Structural Patterns:** Structural patterns
+
+
+2. **Structural Patterns:** 
+    
+    Structural patterns
 deal with object composition and relationships,
 enabling the creation of complex structures
 from simpler components.
-3. **Behavioral Patterns:** Behavioural patterns
+
+
+3. **Behavioral Patterns:**
+
+    Behavioural patterns
 focus on how objects interact and communicate 
 with each other, defining algorithms and 
 communication patterns.

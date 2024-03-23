@@ -1,4 +1,4 @@
-package main.java.org.svur.lld.design;
+package org.example.database;
 
 public class Database {
     private String name;
@@ -6,7 +6,8 @@ public class Database {
     private int port;
     private DatabaseType databaseType;
 
-    private Database() {}
+    private Database() {
+    }
 
     private Database(String name, String host, int port, DatabaseType databaseType) {
         this.name = name;
@@ -21,8 +22,7 @@ public class Database {
 
     public static class DatabaseBuilder {
         Database database;
-
-        DatabaseBuilder() {
+        public DatabaseBuilder() {
             this.database = new Database();
         }
 

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ad303741-6948-4998-85e1-c99e9dc0efa0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../builder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../builder/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../builder/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singleton/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singleton/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singleton/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../singleton/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../builder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../builder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../builder/src/main/java/org/svur/lld/design/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../builder/src/main/java/org/svur/lld/design/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/../builder/src/main/java/org/example/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../builder/src/main/java/org/svur/lld/design/DatabaseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../builder/src/main/java/org/example/database/DatabaseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../singleton/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2e69dTrMAqYuBXM17CecTQtfQCq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad303741-6948-4998-85e1-c99e9dc0efa0" name="Changes" comment="" />
+      <created>1711214250742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711214250742</updated>
+    </task>
+    <servers />
+  </component>
+</project>

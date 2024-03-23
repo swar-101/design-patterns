@@ -1,8 +1,9 @@
-package main.java.org.svur.lld.design;
+package org.example;
 
-public class Client {
+import org.example.database.Database;
 
-    public static void main(String[] args) {
+public class App {
+    public static void main( String[] args ) {
         Database database = new Database.DatabaseBuilder()
                 .withUrl("localhost", 8080)
                 .withName("root")

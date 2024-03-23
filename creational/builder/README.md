@@ -2,13 +2,13 @@
 
 
 ```java
-public class main.java.org.svur.lld.design.Database {
+public class org.example.database.Database {
     private String host;
     private String port;
     private String username;
     private String password;
     
-    public main.java.org.svur.lld.design.Database(Map<String, String> config) {
+    public org.example.database.Database(Map<String, String> config) {
         if (config.containsKey("host")) 
             this.host = config.get("host");
         if (config.containsKey("port"))
@@ -24,9 +24,9 @@ public class main.java.org.svur.lld.design.Database {
 ## Inner class
 
 ```java
-public class main.java.org.svur.lld.design.Database {
+public class org.example.database.Database {
     
-    public main.java.org.svur.lld.design.Database(DatabaseParameters parameters) {
+    public org.example.database.Database(DatabaseParameters parameters) {
             this.host = parameters.host;
             this.port = parameters.port;
             this.name = parameters.name;
@@ -46,30 +46,32 @@ public class main.java.org.svur.lld.design.Database {
 ## Builder class
 
 ```java
-public class main.java.org.svur.lld.design.Database {
+import org.example.database.Database;
+
+public class main.java.org.svur.lld.design.Database{
+private String host;
+private String port;
+private String name;
+private String password;
+
+private org.example.database.Database(){}
+
+class DatabaseBuilder {
     private String host;
     private String port;
     private String name;
     private String password;
-    
-    private main.java.org.svur.lld.design.Database() {}   
-    
-    class DatabaseBuilder {
-        private String host;
-        private String port;
-        private String name;
-        private String password;
-        
-        public main.java.org.svur.lld.design.Database build() {
-            main.java.org.svur.lld.design.Database database = new main.java.org.svur.lld.design.Database();
-            database.host = this.database;
-            database.port = this.database;
-            database.name = this.name;
-            database.password = this.password;
-            
-            return database;
-        }
+
+    public org.example.database.Database build() {
+        org.example.database.Database database = new org.example.database.Database();
+        database.host = this.database;
+        database.port = this.database;
+        database.name = this.name;
+        database.password = this.password;
+
+        return database;
     }
+}
 }
 ```
 

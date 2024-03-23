@@ -1,4 +1,4 @@
-package main.java.org.svur.lld.design;
+package org.example.database;
 
 public enum DatabaseType {
     MYSQL, ORACLE, POSTGRES, MONGODB

@@ -61,8 +61,31 @@ should create the instance and then return it.
 ## 3. The Code
 
 Let's explore different techniques in which we
-can achieve the Single design pattern.
+can achieve the Singleton design pattern.
 
-1. Simple Singleton
-2. Thread-safe Singleton
-3. Singleton using Double-checked Locking
+- 3.1 Simple Singleton 
+- 3.2 Thread-safe Singleton
+- 3.3 Singleton using Double-checked Locking
+
+### 3.1 Simple Singleton
+
+<span style="color:white; background-color:#555; border-radius:12px; padding:4px"><b>Step 1 :</b></span>
+
+As we already know that we need to hide the 
+constructor so that the other classes 
+should not be able to instantiate the singleton
+class. We will do this by making it private.
+
+```java
+class Database {
+    private Database() {
+        
+    }
+}
+```
+<span style="color:white; background-color:#555; border-radius:12px; padding:4px"><b>Step 2 :</b></span>
+
+The above code restricts the instantiation of
+the `Database` class. Now, we need to provide
+a global access point
+

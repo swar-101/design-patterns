@@ -101,25 +101,25 @@ should not be able to instantiate the singleton
 class. We will do this by making it private.
 
 ```java
-public class Database {
-    private Database() {}
+public class main.java.org.svur.lld.design.Database {
+    private main.java.org.svur.lld.design.Database() {}
 }
 ```
 <span style="color:white; background-color:#555; border-radius:12px; padding:4px"><b>Step 2 :</b></span>
 
 The above code restricts the instantiation of
-the `Database` class. Now, we need to provide
+the `main.java.org.svur.lld.design.Database` class. Now, we need to provide
 a global access point to get the instance of the
-`Database` class. We can do this by creating a static
-method that returns the instance of the `Database` class.
+`main.java.org.svur.lld.design.Database` class. We can do this by creating a static
+method that returns the instance of the `main.java.org.svur.lld.design.Database` class.
 If the instance does not exist, it should create the 
 instance and then return it.
 
 ```java
-public class Database {
-    private static Database instance = new Database();
+public class main.java.org.svur.lld.design.Database {
+    private static main.java.org.svur.lld.design.Database instance = new main.java.org.svur.lld.design.Database();
     
-    private Database() {}
+    private main.java.org.svur.lld.design.Database() {}
     
     public static getInstance() {
         return instance;
@@ -128,23 +128,23 @@ public class Database {
 ```
 
 To implement the `getInstance()` method, we need to create a 
-static variable of the `Database` class. This variable will
-hold the instance of the Database class. We will initialize
+static variable of the `main.java.org.svur.lld.design.Database` class. This variable will
+hold the instance of the main.java.org.svur.lld.design.Database class. We will initialize
 this variable to null. The `getInstance()` method will check
 if the instance variable is null. If it is null, it will 
-create a new instance of the `Database` class and assign it
+create a new instance of the `main.java.org.svur.lld.design.Database` class and assign it
 to the `instance` variable. 
 This is known as lazy _initialization_.
 
 ```java
-public class Database() {
-    private static Database instance = new Database();
+public class main.java.org.svur.lld.design.Database() {
+    private static main.java.org.svur.lld.design.Database instance = new main.java.org.svur.lld.design.Database();
     
-    private Database() {}
+    private main.java.org.svur.lld.design.Database() {}
 
-    public static Database getInstance() {
+    public static main.java.org.svur.lld.design.Database getInstance() {
         if (instance == null) {
-            instance = new Database();
+            instance = new main.java.org.svur.lld.design.Database();
         }
         return instance;
     }
@@ -156,19 +156,19 @@ public class Database() {
 The above code is not thread-safe. If two threads call
 `getInstance()` method at the same time, both threads will
 if the instance variable is null. Both threads will find
-create a new instance of the `Database` class. To make the 
+create a new instance of the `main.java.org.svur.lld.design.Database` class. To make the 
 above code thread-safe, we can make the `getInstance()` method
 `synchronized`.
 
 ```java
-public class Database {
-    private static Database instance = null;
+public class main.java.org.svur.lld.design.Database {
+    private static main.java.org.svur.lld.design.Database instance = null;
     
-    private Database() {}
+    private main.java.org.svur.lld.design.Database() {}
     
-    public static synchronized Database getInstance() {
+    public static synchronized main.java.org.svur.lld.design.Database getInstance() {
         if (instance == null) {
-            instance = new Database();           
+            instance = new main.java.org.svur.lld.design.Database();           
         }
         return instance;    
     }
@@ -184,25 +184,25 @@ is null. Both threads will find that the instance variable
 is null. Both threads will wait for the lock to be released.
 
 Once the lock is released, one thread will create a new 
-instance of the `Database` class. The other thread will 
+instance of the `main.java.org.svur.lld.design.Database` class. The other thread will 
 wait for the lock to be released. Once the lock is released,
-it will create a new instance of the `Database` class.
-This will result in two instances of `Database` class. 
+it will create a new instance of the `main.java.org.svur.lld.design.Database` class.
+This will result in two instances of `main.java.org.svur.lld.design.Database` class. 
 To make the above code efficient, we can use double-checked
 locking.
 
 ```java
 
-public class Database {
-    private static Database instance = null;
+public class main.java.org.svur.lld.design.Database {
+    private static main.java.org.svur.lld.design.Database instance = null;
     
-    private Database() {}
+    private main.java.org.svur.lld.design.Database() {}
     
-    public static Database getInstance() {
+    public static main.java.org.svur.lld.design.Database getInstance() {
         if (instance == null) {
-            synchronized (Database.class) { 
+            synchronized (main.java.org.svur.lld.design.Database.class) { 
                 if (instance == null) {
-                    instance = new Database();
+                    instance = new main.java.org.svur.lld.design.Database();
                 }
             }
         }

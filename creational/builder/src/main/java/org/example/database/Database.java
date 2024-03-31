@@ -1,5 +1,8 @@
 package org.example.database;
 
+import lombok.extern.log4j.Log4j2;
+
+@Log4j2
 public class Database {
     private String name;
     private String host;

@@ -3,17 +3,26 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>creational</artifactId>
+        <artifactId>structural</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>builder</artifactId>
+    <artifactId>facade</artifactId>
     <packaging>jar</packaging>
 
-    <name>builder</name>
+    <name>facade</name>
     <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>

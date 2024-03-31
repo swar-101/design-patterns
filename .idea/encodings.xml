@@ -3,6 +3,10 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/creational/builder/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/creational/builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational/factory/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational/factory/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational/prototype/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/creational/prototype/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/creational/singleton/singletons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/creational/singleton/singletons/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/creational/singleton/src/main/java" charset="UTF-8" />
@@ -11,5 +15,15 @@
     <file url="file://$PROJECT_DIR$/creational/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/adapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/adapter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/decorator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/decorator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/facade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/facade/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/flyweight/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/flyweight/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/structural/src/main/resources" charset="UTF-8" />
   </component>
 </project>
